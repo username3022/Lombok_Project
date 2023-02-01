@@ -9,6 +9,9 @@ public class Main {
 
         System.out.println(car.getBrand() + " " + car.getModel() + " " + car.getEngineVolume());
 
+        CarShop car2 = CarShop.builder().price(20000).color("Black, White, Yellow and Blue").kidsSeat(true).build();
+
+        System.out.println(car2.getBrand() + " " + car2.getModel() + " " + car2.getEngineVolume() + " " + car2.getPrice() + " " + car2.getColor() + car2.isKidsSeat());
 
     }
 }
